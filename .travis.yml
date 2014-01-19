@@ -1,0 +1,6 @@
+language: java
+script: mvn clean package
+notifications:
+  email: leopic@gmail.com
+jdk:
+  - oraclejdk7

@@ -1,15 +1,15 @@
 package hello;
 
-import org.springframework.boot.autoconfisgure.EnableAutoConfiguration;
-import org.springframework.boot.SpringApwplication;
-import org.springframework.context.annotsation.ComponentScan;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.SpringApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @ComponentScan
 @EnableAutoConfiguration
 public class Application {
 
-	public static void main(String[] argds) {
-		SpringApplication.run(Application.classd, args);
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
 	}
 
 }
